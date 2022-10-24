@@ -1,0 +1,55 @@
+/* ABOUT */
+
+#about {
+  width: 100%;
+  padding: 50px auto;
+  background-color: #2c2c2c;
+}
+
+#about img {
+  height: auto;
+  width: 280px;
+  padding-right: 20px;
+}
+
+.about-text {
+  width: 550px;
+}
+
+.main {
+  width: 1130px;
+  max-width: 95%;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.title h2 {
+  color: white;
+  font-size: 40px;
+  text-transform: capitalize;
+  margin-bottom: 20px;
+}
+
+.about-text h5 {
+  color: white;
+  letter-spacing: 2px;
+  font-size: 22px;
+  margin-bottom: 25px;
+  text-transform: capitalize;
+}
+
+.about-text p {
+  color: rgb(207, 126, 132);
+  letter-spacing: 1px;
+  line-height: 28px;
+  font-size: 18px;
+  margin-bottom: 45px;
+}
+
+#about .main button:hover {
+  background-color: transparent;
+  border: 2px solid rgb(121, 49, 49);
+  cursor: pointer;
+}

@@ -1,0 +1,93 @@
+/* hero */
+header {
+  min-height: 100vh;
+  background: linear-gradient(
+    rgba(160, 160, 160, 0.5),
+    rgba(219, 158, 158, 0.7)
+  );
+}
+.banner {
+  min-height: 100vh;
+  display: grid;
+  place-items: center;
+  text-align: center;
+}
+.container h1 {
+  color: white;
+  text-transform: uppercase;
+}
+.container p {
+  color: white;
+  max-width: 25rem;
+  margin: 0 auto;
+  margin-bottom: 1.25rem;
+}
+@media screen and (min-width: 768px) {
+  .container p {
+    max-width: 40rem;
+  }
+}
+/* sections and title */
+.title h2 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+#about,
+#projects,
+#skills,
+#contact {
+  height: 80vh;
+}
+
+#services {
+  background: white;
+}
+
+footer {
+  background: grey;
+  padding: 5rem 1rem;
+}
+
+footer p {
+  color: white;
+  text-align: center;
+  text-transform: capitalize;
+  letter-spacing: 0.25rem;
+  margin-bottom: 0;
+}
+
+.top-link {
+  font-size: 1.25rem;
+  position: fixed;
+  bottom: 3rem;
+  right: 3rem;
+  background: red;
+  width: 2rem;
+  height: 2rem;
+  display: grid;
+  place-items: center;
+  border-radius: 0.5rem;
+  color: white;
+  animation: bounce 2s ease-in-out infinite;
+
+  visibility: hidden;
+  z-index: -100;
+}
+
+.show-link {
+  visibility: visible;
+  z-index: 100;
+}
+
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
