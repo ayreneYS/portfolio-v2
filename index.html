@@ -40,49 +40,60 @@
   <body>
     <!-- header -->
     <header id="home">
+      <!-- video -->
+      <video id="video" muted autoplay loop>
+        <source src="./images/clouds.mp4" type="video/mp4" />
+      </video>
       <!-- navbar -->
-      <nav id="nav">
-        <div class="nav-center">
-          <!-- nav header -->
-          <div class="nav-header">
-            <img src="./images/logo1.png" alt="logo" class="logo" />
-            <button class="nav-toggle">
-              <i class="fas fa-bars"></i>
-            </button>
+      <section class="content">
+        <nav id="nav">
+          <div class="nav-center">
+            <!-- nav header -->
+            <div class="nav-header">
+              <img src="./images/logo1.png" alt="logo" class="logo" />
+              <button class="nav-toggle">
+                <i class="fas fa-bars"></i>
+              </button>
+            </div>
+            <!-- links -->
+            <div class="links-container">
+              <ul class="links">
+                <li>
+                  <a href="#home" class="scroll-link">home</a>
+                </li>
+                <li>
+                  <a href="#about" class="scroll-link">about</a>
+                </li>
+                <li>
+                  <a href="#projects" class="scroll-link">projects</a>
+                </li>
+                <li>
+                  <a href="#skills" class="scroll-link">skills</a>
+                </li>
+                <li>
+                  <a href="#contact" class="scroll-link">contact</a>
+                </li>
+              </ul>
+            </div>
           </div>
-          <!-- links -->
-          <div class="links-container">
-            <ul class="links">
-              <li>
-                <a href="#home" class="scroll-link">home</a>
-              </li>
-              <li>
-                <a href="#about" class="scroll-link">about</a>
-              </li>
-              <li>
-                <a href="#projects" class="scroll-link">projects</a>
-              </li>
-              <li>
-                <a href="#skills" class="scroll-link">skills</a>
-              </li>
-              <li>
-                <a href="#contact" class="scroll-link">contact</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+        </nav>
+      </section>
       <!-- banner -->
-      <div class="banner">
-        <div class="container">
-          <h4>Hello, my name is</h4>
-          <h1>Ayrene <span>Santos</span></h1>
-          <h3>an aspiring Web Developer</h3>
-          <p class="help">Need help with your projects? Let's work together!</p>
-          <a href="#contact" class="scroll-link btn btn-white">contact me</a>
+      <section id="home" class="content">
+        <div class="banner">
+          <div class="container">
+            <h4>Hello, my name is</h4>
+            <h1>Ayrene <span>Santos</span></h1>
+            <h3>an aspiring Web Developer</h3>
+            <p class="help">
+              Need help with your projects? Let's work together!
+            </p>
+            <a href="#contact" class="scroll-link btn btn-white">contact me</a>
+          </div>
         </div>
-      </div>
+      </section>
     </header>
+
     <!-- about -->
     <section id="about" class="section">
       <div class="title">
@@ -128,6 +139,6 @@
       </p>
     </footer>
     <!-- javascript -->
-    <script src="app.js"></script>
+    <script src="./js/nav.js"></script>
   </body>
 </html>

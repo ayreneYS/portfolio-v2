@@ -1,10 +1,9 @@
 /* hero */
 header {
   min-height: 100vh;
-  background: linear-gradient(
-    rgba(160, 160, 160, 0.5),
-    rgba(219, 158, 158, 0.7)
-  );
+  position: relative;
+  /* display: grid; */
+  /* place-items: center; */
 }
 .banner {
   min-height: 100vh;
@@ -27,6 +26,26 @@ header {
     max-width: 40rem;
   }
 }
+
+/* video */
+#video {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  height: auto;
+  min-height: 100%;
+  object-fit: cover;
+}
+
+.content {
+  position: relative;
+  top: 0;
+  background: rgba(121, 83, 98, 0.5);
+  width: 100%;
+  z-index: 1;
+}
+
 /* sections and title */
 .title h2 {
   text-align: center;
@@ -38,10 +57,6 @@ header {
 #skills,
 #contact {
   height: 80vh;
-}
-
-#services {
-  background: white;
 }
 
 footer {
