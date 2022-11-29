@@ -1,0 +1,59 @@
+/* PROJECTS */
+
+#projects {
+  background: linear-gradient(rgb(239, 220, 220), rgba(219, 158, 158, 0.7));
+  overflow: hidden;
+}
+
+.title {
+  color: white;
+  font-size: 70px;
+  width: 1130px;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 400px;
+}
+
+.card {
+  height: 300px;
+  width: 600px;
+  padding: 20px 35px;
+  background: #ffffff;
+  border-radius: 20px;
+  margin: 15px;
+  position: relative;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* .card i {
+    font-size: 50px;
+    display: block;
+    text-align: center;
+    margin: 25px 0px;
+    color: rgb(121, 49, 49);
+  } */
+
+#projects h5 {
+  color: rgb(207, 126, 132);
+  font-size: 23px;
+  margin-bottom: 15px;
+}
+
+#projects .box .card .img a {
+  height: auto;
+  width: auto;
+  display: flexbox;
+  justify-content: auto;
+  cursor: pointer;
+  border: 5px solid transparent;
+  border-radius: 3px;
+}
+
+/* ------------------------------ */

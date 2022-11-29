@@ -1,0 +1,26 @@
+#skills {
+  background: linear-gradient(rgba(219, 158, 158, 0.7), rgb(239, 220, 220));
+  overflow: hidden;
+}
+
+#skills .skills-logo {
+  width: 1130px;
+  margin: 70px auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#skills .skills-logo .skill {
+  margin: 40px auto;
+  justify-content: center;
+}
+
+.skill {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  text-indent: 50px;
+  margin-top: 140px;
+  font-size: 23px;
+}
