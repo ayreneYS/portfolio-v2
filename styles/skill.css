@@ -24,3 +24,36 @@
   margin-top: 140px;
   font-size: 23px;
 }
+
+/* --------------------- */
+/* CONTACTS */
+
+#contact {
+  background: rgb(234, 217, 217);
+  overflow: hidden;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.social a {
+  width: 45px;
+  height: 45px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #f8ad9d;
+  border-radius: 50%;
+  margin: 22px 10px;
+  color: #fff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.social a:hover {
+  transform: scale(1.3);
+  transition: 0.3s;
+}
