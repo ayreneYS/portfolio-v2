@@ -34,7 +34,7 @@
 
 .title h2 {
   color: white;
-  font-size: 40px;
+  font-size: 30px;
   text-transform: capitalize;
   margin-bottom: 20px;
 }
@@ -42,7 +42,7 @@
 .about-text h5 {
   color: white;
   letter-spacing: 2px;
-  font-size: 22px;
+  font-size: 18px;
   margin-bottom: 25px;
   text-transform: capitalize;
 }
@@ -51,7 +51,7 @@
   color: rgb(0, 0, 0);
   letter-spacing: 1px;
   line-height: 28px;
-  font-size: 18px;
+  font-size: 15px;
   margin-bottom: 45px;
 }
 
