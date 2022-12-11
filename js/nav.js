@@ -1,17 +1,19 @@
 'use script';
-'use strrict';
-
-// Set date //
-const date = document.getElementById('date');
-date.innerHTML = new Date().getFullYear();
+'use strict';
 
 // close links //
+const date = document.getElementById('#date');
 const navToggle = document.querySelector('.nav-toggle');
 const linksContainer = document.querySelector('.links-container');
 const links = document.querySelector('.links');
+const navbar = document.getElementById('#nav');
 
+// Set date //
+date.innerHTML = new Date().getFullYear();
+
+// nav toggle
 navToggle.addEventListener('click', function () {
-  // links.classList.toggle('show-link');
+  links.classList.toggle('show-link');
   const containerHeight = linksContainer.getBoundingClientRect().height;
   const linksHeight = links.getBoundingClientRect().height;
 
@@ -23,7 +25,6 @@ navToggle.addEventListener('click', function () {
 });
 
 // fixed navbar //
-const navbar = document.getElementById('nav');
 window.addEventListener('scroll', function () {
   const scrollHeight = window.pageXOffset;
   const navHeight = navbar.getBoundingClientRect().height;
